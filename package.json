@@ -1,0 +1,22 @@
+{
+  "name": "Clinica-web",
+  "version": "1.0.0",
+  "description": "Clinica web - grupo de estudo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./src/Config/mongo.env nodemon src/server"
+  },
+  "keywords": [],
+  "author": "Victor Emanuel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
